@@ -1,0 +1,16 @@
+{
+   "type": "mysql",
+   "database": "estadio-sonoro",
+   "synchronize": true,
+   "username" : "root",
+   "host" : "localhost",
+   "port" : 3306,
+   "password" : "12012012",
+   "logging": true,
+   "entities": [
+      "build/entity/*{.ts,.js}"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity"
+   }
+}
